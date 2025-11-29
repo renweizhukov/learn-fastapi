@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "learn-fastapi"
 version = "0.1.0"
 description = "A FastAPI learning project"
-readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 authors = [
@@ -44,7 +43,7 @@ Repository = "https://github.com/renweizhukov/learn-fastapi"
 Issues = "https://github.com/renweizhukov/learn-fastapi/issues"
 
 [tool.setuptools]
-packages = ["learn_fastapi"]
+packages = []
 
 [tool.black]
 line-length = 88
